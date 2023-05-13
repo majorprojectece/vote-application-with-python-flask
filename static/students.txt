@@ -13,3 +13,4 @@
 20R15A0403,naninikki,sandya,female,sandya@gmail.com,8631045283,ECE-D
 20R15A0400,098765,kavya,female,kavya@gmail.com,7420914853,EEE-B
 18R11A04J8,Raj@123,RAJESH,male,rajeshnayaktejavath1@gmail.com,8897676350,ECE-D
+19R11A0471,ece,K Shravan ,male,shravan@gmail.com,9010937924,ECE-D
