@@ -306,9 +306,9 @@ def upload_candidates():
     candidate1_name = request.form['candidate_name']
     candidate2_name = request.form['candidate_name']
     candidate3_name = request.form['candidate_name']
-    candidate1_image = request.files['candidate1_image']
-    candidate2_image = request.files['candidate2_image']
-    candidate3_image = request.files['candidate3_image']
+    candidate1_image = request.files['candidate_image']
+    candidate2_image = request.files['candidate_image']
+    candidate3_image = request.files['candidate_image']
     upload_images([candidate1_image, candidate2_image, candidate3_image],[candidate1_name,candidate2_name,candidate3_name])
 
     candidates = []
