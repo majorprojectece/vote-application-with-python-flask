@@ -303,9 +303,9 @@ def upload_candidates():
     if 'username' not in session:
         return redirect(url_for('index'))
     
-    candidate1_name = request.form['candidate1_name']
-    candidate2_name = request.form['candidate2_name']
-    candidate3_name = request.form['candidate3_name']
+    candidate1_name = request.form['candidate_name']
+    candidate2_name = request.form['candidate_name']
+    candidate3_name = request.form['candidate_name']
     candidate1_image = request.files['candidate1_image']
     candidate2_image = request.files['candidate2_image']
     candidate3_image = request.files['candidate3_image']
